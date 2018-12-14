@@ -4,6 +4,9 @@
 > This project will be continuously updated.
 
 ## Example
+
+![demo](./docs/demo.jpg 'demo')
+
 In the dolphin package directory:
 ```
 cd example
