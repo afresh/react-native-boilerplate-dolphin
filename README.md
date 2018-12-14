@@ -1,2 +1,2 @@
-# react-native-architecture-dolphin
-An architecture for React Native project.
+# react-native-boilerplate-dolphin
+React Native Application Boilerplate.
