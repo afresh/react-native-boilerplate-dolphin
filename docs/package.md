@@ -84,3 +84,34 @@ Add to `package.json` file in `./`.
 npm install --save mobx@4.4
 npm install --save mobx-react@5.2.8
 ```
+
+### react-native-router-flux
+
+> The first declarative React Native router.
+
+##### Installation
+
+[react-native-router-flux](https://github.com/aksonov/react-native-router-flux)
+
+`npm install --save react-native-router-flux`
+
+### react-native-device-info
+
+> Device Information for React Native iOS and Android.
+
+##### Installation
+
+[react-native-device-info](https://github.com/rebeccahughes/react-native-device-info)
+
+`npm install --save react-native-device-info`
+
+### react-native-fetch-blob
+
+> A project committed to making file access and data transfer easier, efficient for React Native developers.  
+> forked from [wkh237/react-native-fetch-blob](https://github.com/wkh237/react-native-fetch-blob)
+
+##### Installation
+
+[rn-fetch-blob](https://github.com/joltup/rn-fetch-blob)
+
+`npm install --save rn-fetch-blob`

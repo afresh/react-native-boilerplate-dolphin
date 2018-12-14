@@ -4,10 +4,11 @@
  */
 
 import React, {Component} from 'react';
-import {Text, View} from 'react-native';
+import {View} from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
 import {Provider} from 'mobx-react';
 
+import AppRouter from './router/AppRouter';
 import * as RootStore from './store/RootStore';
 import {Theme} from './util';
 
@@ -24,8 +25,7 @@ export default class App extends Component<any> {
         return (
             <Provider {...RootStore}>
                 <View style={Theme.app}>
-                    <Text>Welcome to React Native!</Text>
-                    <Text>To get started, edit App.js</Text>
+                    <AppRouter/>
                 </View>
             </Provider>
         );
