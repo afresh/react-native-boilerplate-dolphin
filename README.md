@@ -3,6 +3,10 @@
 > Welcome to use this React Native application boilerplate for learning or secondary development. If in doubt, please submit issues.  
 > This project will be continuously updated.
 
+## Docs
+
+* [中文文档](https://github.com/afresh/react-native-boilerplate-dolphin/blob/master/docs/README.md)
+
 ## Example
 
 ![demo](./docs/demo.jpg 'demo')
