@@ -5,7 +5,7 @@
 
 ## Docs
 
-* [中文文档](https://github.com/afresh/react-native-boilerplate-dolphin/blob/master/docs/README.md)
+* [中文文档](https://github.com/afresh/react-native-boilerplate-dolphin/blob/master/docs/cn/)
 
 ## Example
 
