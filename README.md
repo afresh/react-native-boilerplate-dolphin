@@ -24,7 +24,7 @@ react-native run-android
 
 ## Release Notes
 
-### v1.0.0
+### [v1.0.0](https://github.com/afresh/react-native-boilerplate-dolphin/releases/tag/v1.0.0)
  * Base.
 
 ## Authors
