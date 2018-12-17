@@ -21,3 +21,18 @@ To run example on Android:
 react-native run-android
 ```
 **Tips: If the third-party plug-ins are not yet configured, please see [the package resource](https://github.com/afresh/react-native-boilerplate-dolphin/blob/master/docs/package.md).**
+
+## Release Notes
+
+### v1.0.0
+ * Base.
+
+## Authors
+
+| GitHub        | Role    | Email                 |
+| ------------- | ------- | --------------------- |
+| [@afresh]     | Author  | danding_ge@qq.com |
+
+## License
+
+MIT
