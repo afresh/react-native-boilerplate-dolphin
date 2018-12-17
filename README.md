@@ -20,4 +20,4 @@ To run example on Android:
 ```
 react-native run-android
 ```
-**Tips: In the iOS system, the third-party plug-ins are not yet configured, please see [the package resource](https://github.com/afresh/react-native-boilerplate-dolphin/blob/master/docs/package.md).**
+**Tips: If the third-party plug-ins are not yet configured, please see [the package resource](https://github.com/afresh/react-native-boilerplate-dolphin/blob/master/docs/package.md).**
