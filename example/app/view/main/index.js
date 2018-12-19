@@ -10,6 +10,8 @@ import {HomeScene} from './Home';
 import {ComponentsScene} from '../components';
 import {MineScene} from '../mine';
 
+import {WebScene} from './Web';
+
 const InitMainScene = (
     <Scene
         key={'main'}
@@ -39,4 +41,4 @@ const MainScene = (
     </Scene>
 );
 
-export {InitMainScene, MainScene};
+export {InitMainScene, MainScene, WebScene};

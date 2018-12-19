@@ -1,0 +1,38 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "apps": [
+      {
+        "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/a5/e3/e1/a5e3e1ad-9f02-7461-1633-f833f6637f2b/Icon-Production-1x_U007emarketing-85-220-0-6.png/246x0w.jpg",
+        "name": "Facebook",
+        "url": "https://m.facebook.com"
+      },
+      {
+        "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/c3/17/43/c31743d4-6279-0a62-ef88-f39348a2f471/ProductionAppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/246x0w.jpg",
+        "name": "Twitter",
+        "url": "https://mobile.twitter.com/"
+      },
+      {
+        "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/ce/52/60/ce526067-aabe-2972-ff48-44c7303ac343/AppIcon-1x_U007emarketing-0-0-85-220-0-0-5.png/246x0w.jpg",
+        "name": "Amazon",
+        "url": "https://www.amazon.com/"
+      },
+      {
+        "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/a6/4a/ce/a64acee6-e7f5-e730-fb50-9f1840d0c432/AppIcon-0-1x_U007emarketing-0-85-220-5.png/246x0w.jpg",
+        "name": "2048",
+        "url": "http://2048game.com/"
+      },
+      {
+        "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/a5/50/35/a55035fc-4276-7f56-45a2-3c3b6bef4a3a/AppIcon-0-1x_U007emarketing-0-0-0-85-220-4.png/246x0w.jpg",
+        "name": "WeChat",
+        "url": "https://www.wechat.com/mobile/"
+      },
+      {
+        "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/76/2e/8b/762e8b08-d1a4-3f3d-d097-2d9a4df7c7fb/AppIcon-1x_U007emarketing-85-220-6.png/246x0w.jpg",
+        "name": "Alipay",
+        "url": "https://ds.alipay.com/"
+      }
+    ]
+  }
+}

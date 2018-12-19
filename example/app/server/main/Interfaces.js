@@ -7,3 +7,12 @@ export interface TRGetAppVersion {
     ios: string;
     android: string;
 }
+
+export interface TRGetHomePage {
+    apps: Array<App>;
+}
+
+export interface App {
+    icon: string;
+    name: string;
+}

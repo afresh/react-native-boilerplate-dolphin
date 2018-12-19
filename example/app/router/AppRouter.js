@@ -13,7 +13,7 @@ import {Images} from "../resource/images";
 import {MainMobx} from '../mobx/main';
 
 // Scenes
-import {InitMainScene, MainScene} from '../view/main';
+import {InitMainScene, MainScene, WebScene} from '../view/main';
 
 @observer
 class AppRouter extends Component {
@@ -82,9 +82,18 @@ class AppRouter extends Component {
         )
     };
 
+    _backAndroidHandler = () => {
+        console.log("Actions.currentScene===" + Actions.currentScene);
+        if (Actions.currentScene !== "_home") {
+            Actions.pop();
+            return true;
+        }
+        return false;
+    };
+
     _renderScenes = () => {
         return (
-            <Router sceneStyle={[Theme.router]}>
+            <Router sceneStyle={[Theme.router]} backAndroidHandler={this._backAndroidHandler}>
                 <Scene
                     key={'root'}
                     navigationBarStyle={[Theme.sceneNavigationBar]}
@@ -94,6 +103,7 @@ class AppRouter extends Component {
                     renderRightButton={<View />}
                 >
                     {this.state.initializeScene === "main" ? InitMainScene : MainScene}
+                    {WebScene}
                 </Scene>
             </Router>
         )
