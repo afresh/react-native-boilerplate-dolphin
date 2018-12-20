@@ -19,6 +19,9 @@ type Props = {
 class Input extends Component<Props, any> {
     constructor(props){
         super(props);
+        this.state = {
+            name: "dolphin",
+        };
     }
 
     render() {
@@ -29,15 +32,18 @@ class Input extends Component<Props, any> {
                         title={"Name"}
                         placeholder={"input your name"}
                         valueColor={COLOR.success}
-                        value={"dolphin"}
-                        onChangeText={(text) => {console.log(`name: ${text}`)}}
+                        value={this.state.name}
+                        onChangeText={(text) => {
+                            console.log(`name: ${text}`);
+                            this.setState({name: text});
+                        }}
                     />
                     <CTextInput
-                        title={"Password"}
-                        placeholder={"input your password"}
+                        title={"Phone"}
+                        placeholder={"input your phone number"}
                         keyboardType={"numeric"}
                         maxLength={11}
-                        onChangeText={(text) => {console.log(`password: ${text}`)}}
+                        onChangeText={(text) => {console.log(`phone: ${text}`)}}
                     />
                 </CInputPanelNT>
                 <CInputPanel
