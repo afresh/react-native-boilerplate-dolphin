@@ -37,7 +37,7 @@ class Home extends Component<Props, any> {
         });
     };
 
-    _keyExtractor = ({index}) => `app-${index}`;
+    _keyExtractor = (item) => `app-${item.name}`;
 
     _renderListHeader = () => (
         <View style={[styles.listHeader]}>

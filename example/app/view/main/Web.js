@@ -4,7 +4,7 @@
  */
 
 import React, {Component} from 'react';
-import {WebView, Text, TouchableOpacity, Image, Linking} from 'react-native';
+import {WebView, TouchableOpacity, Image, Linking} from 'react-native';
 
 import {Scene} from 'react-native-router-flux';
 import {observer} from "mobx-react";
@@ -73,7 +73,6 @@ const WebScene = (
     <Scene
         key={'web'}
         component={Web}
-        // renderTitle={WebTitle}
         renderRightButton={<WebLink/>}
     />
 );
