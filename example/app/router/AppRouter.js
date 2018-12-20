@@ -14,6 +14,7 @@ import {MainMobx} from '../mobx/main';
 
 // Scenes
 import {InitMainScene, MainScene, WebScene} from '../view/main';
+import {InputScene} from '../view/components';
 
 @observer
 class AppRouter extends Component {
@@ -104,6 +105,7 @@ class AppRouter extends Component {
                 >
                     {this.state.initializeScene === "main" ? InitMainScene : MainScene}
                     {WebScene}
+                    {InputScene}
                 </Scene>
             </Router>
         )

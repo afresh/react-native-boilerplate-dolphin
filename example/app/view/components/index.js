@@ -13,6 +13,8 @@ import {Images} from "../../resource/images";
 import {Theme} from '../../util';
 import {TabBarIcon} from '../../component';
 
+import {InputScene} from './Input';
+
 type Props = {
 };
 
@@ -46,7 +48,6 @@ class Components extends Component<Props, any> {
     render() {
         const components = [
             {name: "Input", scene: "input"},
-            {name: "Input List", scene: "inputList"},
             {name: "Picker", scene: "picker"},
         ];
 
@@ -114,4 +115,4 @@ const ComponentsScene = (
     />
 );
 
-export {ComponentsScene};
+export {InputScene, ComponentsScene};

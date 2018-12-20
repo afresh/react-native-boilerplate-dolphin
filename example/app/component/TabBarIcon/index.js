@@ -1,5 +1,5 @@
 /**
- * @file TabBarIcon
+ * @file Tab Bar Icon
  * @author author-Afresh(danding_ge@qq.com)
  */
 

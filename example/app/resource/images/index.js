@@ -20,6 +20,7 @@ const Images = {
         menu: require('./baseIcons/menu.png'),
         qrcode: require('./baseIcons/qrcode.png'),
         link: require('./baseIcons/link.png'),
+        search: require('./baseIcons/search.png'),
     },
     background: {
         bg1: require('./background/01.jpg'),

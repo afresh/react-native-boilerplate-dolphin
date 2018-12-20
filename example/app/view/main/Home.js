@@ -42,18 +42,11 @@ class Home extends Component<Props, any> {
     _renderListHeader = () => (
         <View style={[styles.listHeader]}>
             <View style={[styles.header]}>
-                <TouchableOpacity style={[styles.headerButton]}>
-                    <Image
-                        style={[styles.headerButtonImage]}
-                        source={Images.baseIcons.menu}
-                        resizeMode={'contain'}
-                    />
-                </TouchableOpacity>
                 <Text style={[styles.headerTitle]}>dolphin</Text>
                 <TouchableOpacity style={[styles.headerButton]}>
                     <Image
                         style={[styles.headerButtonImage]}
-                        source={Images.baseIcons.qrcode}
+                        source={Images.baseIcons.search}
                         resizeMode={'contain'}
                     />
                 </TouchableOpacity>
@@ -136,7 +129,7 @@ const styles = StyleSheet.create({
     },
     headerTitle: {
         color: '#FFFFFF',
-        fontSize: px2fs(24),
+        fontSize: px2fs(28),
         textAlign: 'center',
     },
     item: {
